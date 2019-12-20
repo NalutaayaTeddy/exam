@@ -1,0 +1,45 @@
+body{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 34px;
+    border: none;
+    margin: 0;
+}
+.table{
+    display: flex;
+    text-align: center;
+    padding-left: 400px;
+}
+.table tr{
+    border: 2px;
+    border-color: blue;
+}
+.type{
+    background-color: white;
+    background-size: contain;
+    padding-bottom: 10px;
+}
+.google{
+    padding-left: 200px ;
+}
+.submit{
+    border: 2px solid #07c;
+    background-color: #07c;
+
+}
+input{
+    width: 25%;
+}
+a{
+    text-decoration: none;
+    color: blue solid;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: red;
+}

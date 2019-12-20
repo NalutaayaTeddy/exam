@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: lightgrey;
+    margin: 0;
+}
+.head{
+    background-image: url("1.jpg");
+    background-size: cover;
+    padding-top:100px;
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+}
+

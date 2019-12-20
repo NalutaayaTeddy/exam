@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signin.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+<body>
+   <div class="main">
+       <div class="type">
+       <div>
+           <h1>Create your account</h1>
+           <h4>Create an account to easily use Booking.com services</h4>
+       </div>
+            <form action="accommodation.html">
+                    <div>
+                         Email address<br>
+                         <input type="email" name="useremail" placeholder="Your Email" id="mail"><br><br>
+                         Username <br>
+                         <input type="text" name="username" placeholder="Your Name" id="usernam"><br><br>
+                         Password <br>
+                         <input type="password" name="userpassword" id="pass" placeholder="Your Password"><br><br>
+                         <input class="submit" type="submit" onclick="startfn()" placeholder="Get started" value="Get started">
+                         
+                    </div>
+                 or
+                   <div class="table">
+                       <div>
+                             <table border="1px" cellpadding="0px" cellspacing="0px">
+                                     <tr>
+                                         <td><a href="www.facebook.com"><img width="20px" height="20px" src="facebook.png" alt="">sign in with facebook</a></td>
+                                     </tr>
+                                </table>
+                       </div>
+                       <div class="google">
+                             <table border="1px" cellspacing="0px">
+                                     <tr>
+                                         <td><a href="www.google.com"><img width="20px" height="20px" src="google.png" alt="">sign in with google</a></td>
+                                     </tr>
+                                </table>
+                       </div>
+                    </div>
+                       <h6>Already have an account? <a href="signin.html">Sign in</a></h6>
+     </form>
+    </div>
+           <div>
+                <p>By signing in or creating an acccount, you are agreeing with our <a href="#">terms & conditions</a>and <a href="#">Privacy statement</a></p>
+                <p>interested in <a href="www.booking.com">Booking.com for business?</a></p>
+                <p>Make changes to a booking with your <a href="#">confirmation number and PIN</a></p>
+                <p>Rent out your place on booking.com <a href="#">List your property</a></p>
+                <h2>English (UK)</h2>
+            </div>
+            </div>
+       </div>
+  
+       <script>
+       function startfn(){
+           let useremail=document.getElementById('mail').value;
+           let username=document.getElementById('usernam').value;
+           let userpassword=document.getElementById('pass').value;
+
+           if (useremail=="nalutaayateddy20@gmail.com"&&username=="Manager Teddy"&&userpassword=="teddy"){
+               alert("You can get started now..")
+           }else if(useremail==""&&username==""&&userpassword==""){
+               alert("You cannot submit empty fields")
+           }else{
+               alert("Wrong details entered")
+           }
+       }
+       </script>
+
+</body>
+</html>

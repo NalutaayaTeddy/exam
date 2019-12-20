@@ -1,0 +1,76 @@
+.accomm{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: lightgrey;
+}
+input[type=text] {
+    border: 2px solid yellow;
+    border-radius: 4px;
+    width: 100%;
+  }
+ /* #input-group{
+      width: 100%;
+      display: flex;
+      text-align: left;
+  }*/
+  #input{
+      width: 100%;
+      display: flex;
+  }
+  .class ul{
+    display: flex;
+}
+.options a{
+  color: #07c;
+}
+a{
+      color: blue;
+  }
+.class{
+    list-style-type: none;
+}
+input[type=submit]{
+    border-color: yellow;
+    background-color: blue;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+} 
+#box{
+    text-align: center;
+}
+p{
+    color: black solid;
+}
+.search{
+    text-align: center;
+    padding-right: 20px;
+    margin-left: 35%;
+    width: 25%;
+    display: flex;
+    border: 1px darkblue;
+}
+.para{
+    text-align: center;
+    padding: 20px;
+    background: darkblue;
+    color: white;
+  
+}
+#box{
+    margin-left: 0px;
+}
+
+ul{
+    display: flex;
+  
+}
+#images img{
+    width: 500px;
+    height: 400px;
+    margin-right: 10px;
+}
+.images{
+    display: flex;
+  
+}

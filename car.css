@@ -1,0 +1,33 @@
+input[type=text] {
+    border: 2px solid yellow;
+    border-radius: 4px;
+    width: 30%;
+    padding: 10px;
+  }
+input[type=submit] {
+    width: 40%;
+    padding: 10px;
+}
+
+body{
+    margin: 0px;
+    background-color: lightgrey;
+}
+.cars{
+    border-bottom: 2px solid white;
+}
+.two,ul{
+    padding-bottom: 10px;
+}
+.main{
+    text-align: center;
+}
+.links li a{
+    color: blue;
+   
+}
+.links ul{
+    display: flex;
+    padding-right: 20%;
+    justify-content: space-between;
+}
